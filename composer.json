@@ -1,0 +1,24 @@
+{
+  "name": "maxbatura/tranzzo",
+  "type": "project",
+  "description": "Test task for Tranzzo",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Tranzzo\\": "./src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Max Batura",
+      "email": "makc.batura@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.0"
+  }
+}
